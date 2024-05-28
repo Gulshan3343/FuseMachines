@@ -185,7 +185,7 @@ main {
 }
 
 .HomeAiStudio{
-  background-image:url(bg-ai-products-dark.webp);
+  background-image:url(/bg-ai-products-dark.webp);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
