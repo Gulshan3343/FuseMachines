@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
-  background: #fafafa;
+  background: #ffffff;
   padding-top: 60px;
 }
 nav {
@@ -15,8 +16,7 @@ nav {
   height: 60px;
   line-height: 60px;
   background: white;
-  /* padding: 0px 50px; */
-  margin: 0px 61.5px;
+  padding: 0px 61.5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,19 +99,20 @@ li:hover ul#submenu {
 
 #submenu a {
   background: rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
 .container {
   width: 100%;
-  height: 613px;
+  height: 552px;
   background-size: cover;
   background-position: center;
-  background-color: rgb(247, 10, 10);
+  background-color: rgb(10, 247, 109);
   
 }
 .container video {
   width: 100%;
-  height: 100%;
+  height: 91%;
   object-fit: cover;
 
 }
@@ -126,9 +127,9 @@ body {
 
 .slide {
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: absolute;
-  box-shadow: 1px 2px 4px 4px rgb(0, 0, 0);
+  /* box-shadow: 1px 2px 4px 4px rgb(0, 0, 0); */
   transition: 1s;
 }
 .nav {
@@ -167,4 +168,108 @@ main {
 
 .material-symbols-outlined {
   vertical-align: -6px;
+}
+
+.client{
+  display: flex;
+  background-color: #fff;
+}
+
+.client div{
+  padding: 25px 40px;
+}
+
+.client p{
+  font-size:21px;
+  font-weight:bolder;
+}
+
+.HomeAiStudio{
+  background-image:url(/images/background-image/bg-ai-products-dark.webp);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* padding: 45px 121.500px; */
+  /* margin: 45px; */
+
+.aiProducts{
+  text-align: center;
+  font-size:28px;
+  line-height: 39px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.aiProducts h1{
+  text-align: center;
+  font-size:60px;
+  line-height: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.aiProducts p{
+  text-align: center;
+  font-size:28px;
+  line-height: 39px;
+  font-weight: 600;
+  color: #fff;  
+}
+
+.aiStudio{
+  align-items: center;
+  display: flex;
+  color: #fff;
+}
+
+.aiStudio_h1{
+  /* text-align: center; */
+  margin-bottom: 7.5px;
+  font-size:60px;
+  line-height: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.text-secondary{
+  color: #ffcd03;
+}
+
+.learn-more-btn{
+  background-color: #ffd529;
+  color: black;
+  border-radius: 2.25rem;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  height: 51px;
+  text-decoration: none;
+}
+
+.pe-lg-5 {
+  padding-right: 45px;
+  margin-right: 45px;
+}
+
+.AiContainer{
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 45px;
+}
+
+.museo-9 .h1{
+font-size: 4rem;
+}
+
+.mb-4{
+  margin-bottom: 22.5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.mb-5{
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
